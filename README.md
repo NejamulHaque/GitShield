@@ -44,7 +44,7 @@ flowchart LR
 
 ### 1. Install into Any Git Repository
 ```bash
-git clone [https://github.com/NejamulHaque/GitShield.git]
+git clone https://github.com/NejamulHaque/GitShield.git
 cd GitShield
 bash install.sh
 ```

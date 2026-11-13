@@ -1,4 +1,5 @@
+#!/usr/bin/env bash
 set -euo pipefail
 
-chmod +x gitshield.py
+chmod 700 gitshield.py
 python3 gitshield.py --install

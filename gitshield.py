@@ -218,7 +218,7 @@ def install_hook() -> int:
     source_script = os.path.abspath(__file__)
 
     shutil.copy2(source_script, target_hook)
-    os.chmod(target_hook, 0o755)
+    os.chmod(target_hook, 0o700)
     print(f"✔ GitShield installed successfully to {target_hook}")
     return 0
 
